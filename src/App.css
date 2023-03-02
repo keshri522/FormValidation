@@ -1,0 +1,89 @@
+
+
+body{
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  
+
+ 
+  background-size: cover;
+  opacity: 0.8;
+
+}
+
+input::placeholder{
+ 
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+  font-family: monospace;
+ 
+  
+}
+.color{
+  /* color: #0a0adf; */
+  font-family: monospace;
+  color: var(--text-color);
+  font-weight: 400;
+  
+  
+}
+
+.Heading{
+  /* color: #f19066; */
+  font-family: cursive;
+  color: var(--Heading-color);
+}
+.off:focus{
+  outline: none;
+  box-shadow:none;
+}
+.btn-color{
+  color:var(--btn-text-color);
+  background-color:var(--btn-bg-color);
+  font-weight: 500;
+}
+.btn:hover{
+  background-color:var(--btn-hover);
+}
+.input-bg{
+  background-color:var(--input-bg-color);
+}
+
+.bg-color{
+  background-color: var(--bg-color);
+  border-radius: 5px;
+  
+}
+small{
+  color: var(--small-color);
+  font-family:monospace;
+}
+
+.light-theme{
+--text-color:#6D214F;
+--Heading-color:#f19066;
+--placeholder-color:#e74c3c;
+--btn-text-color:#fff;
+--btn-bg-color:#cc8e35;
+--bg-color:#fff;
+--bg-image: url("https://images.pexels.com/photos/843227/pexels-photo-843227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+--btn-hover:#ffb142;
+--input-bg-color:#fff;
+--small-color:#6D214F;
+
+}
+
+.dark-theme{
+  --text-color:#000000;
+  --Heading-color:#353b48;
+  --placeholder-color:#e74c3c;
+  --btn-text-color:#485460;
+  --btn-bg-color:#2f3542;
+  --bg-color:#535c68;
+  --bg-image:url("https://mcdn.wallpapersafari.com/medium/60/89/Wvzgem.jpeg");
+  --btn-hover:#636e72;
+  --input-bg-color:#2d3436;
+  --small-color:#000000;
+
+  }
